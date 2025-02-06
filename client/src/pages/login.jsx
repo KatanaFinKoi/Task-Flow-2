@@ -39,7 +39,7 @@ export default function LoginPage() {
   return (
     <div className="flex items-center justify-center min-h-screen w-screen">
       <div>      
-        <img src="public/task-flow-logo.png" alt="Task Flow Logo" className="w-[500px] mt-4 mb-[30px]" />
+        <img src="/task-flow-logo.png" alt="Task Flow Logo" className="w-[500px] mt-4 mb-[30px]" />
 
 
         <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
