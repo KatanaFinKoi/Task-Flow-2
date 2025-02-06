@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './navbar.css';
-import logo from '/task-flow-logo-no-text.png';
+import logo from 'public/task-flow-logo-no-text.png';
 
 const Navbar = ({ calendars, activeCalendar, setActiveCalendar }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
